@@ -1,6 +1,8 @@
 ngrok-c for OpenWrt
 ===
-版本 20160829
+版本 20170526 16:18
+
+当前Makefile当中的commit id=db7df4361365432d98aeada2e95e4378bace5cdc
 
 为编译[此固件][N]所需依赖包而写的Makefile
 
