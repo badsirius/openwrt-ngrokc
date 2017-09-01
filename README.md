@@ -1,8 +1,8 @@
-ngrok-c for OpenWrt
+ngrok-c for OpenWrt/LEDE
 ===
-版本 20170526 16:18
+版本 20170901 10:50
 
-当前Makefile当中的commit id=db7df4361365432d98aeada2e95e4378bace5cdc
+当前Makefile当中的commit id=355aa8ba062e92cfe54966084ca79e9bd5ff8555
 
 为编译[此固件][N]所需依赖包而写的Makefile
 
@@ -40,7 +40,7 @@ ngrok-c for OpenWrt
    tar xjf OpenWrt-SDK-ar71xx-for-linux-x86_64-gcc-4.8-linaro_uClibc-0.9.33.2.tar.bz2
    cd OpenWrt-SDK-ar71xx-*
    # 获取 Makefile
-   git clone https://github.com/AlexZhuo/openwrt-ngrokc.git package/ngrokc
+   git clone https://github.com/badsirius/openwrt-ngrokc.git package/ngrokc
    # 选择要编译的包 Network -> ngrokc
    make menuconfig
    # 开始编译
